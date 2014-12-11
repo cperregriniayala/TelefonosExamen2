@@ -5,6 +5,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 
+
 public class Contactos extends Activity /* implements Serializable */
 {
     String nombre;

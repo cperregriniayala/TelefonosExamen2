@@ -2,6 +2,7 @@ package com.example.cperregriniayala.telefonos;
 
 import android.app.Activity;
 import android.app.ListActivity;
+import android.R;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
