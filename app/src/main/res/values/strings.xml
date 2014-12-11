@@ -7,5 +7,6 @@
     <string name="title_activity_my_activity2">MyActivity2</string>
     <string name="hello_world">Adios!</string>
     <string name="title_activity_my_activity3">MyActivity3</string>
+    <string name="title_activity_my_activityBorrar">MyActivityBorrar</string>
 
 </resources>

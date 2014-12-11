@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cperregriniayala.telefonos_master" >
+    package="com.example.cperregriniayala.telefonos" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.cperregriniayala.telefonos_master.MyActivity"
+            android:name="com.example.cperregriniayala.telefonos.MyActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,12 +17,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.cperregriniayala.telefonos_master.MyActivity2"
+            android:name="com.example.cperregriniayala.telefonos.MyActivity2"
             android:label="@string/title_activity_my_activity2" >
         </activity>
         <activity
-            android:name="com.example.cperregriniayala.telefonos_master.MyActivity3"
+            android:name="com.example.cperregriniayala.telefonos.MyActivity3"
             android:label="@string/title_activity_my_activity3" >
+        </activity>
+        <activity
+            android:name="com.example.cperregriniayala.telefonos.MyActivityBorrar"
+        >
         </activity>
     </application>
 

@@ -1,4 +1,4 @@
-package com.example.cperregriniayala.telefonos_master;
+package com.example.cperregriniayala.telefonos;
 
 import android.app.ListActivity;
 import android.content.Context;
@@ -9,10 +9,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
+import android.app.Activity;
+import java.util.ArrayList;
+import java.util.Arrays;
 
-
-public class MyActivity3 extends ListActivity
-{
+public class MyActivity3 extends ListActivity{
     ArrayList <Contactos> arra;
 
     @Override

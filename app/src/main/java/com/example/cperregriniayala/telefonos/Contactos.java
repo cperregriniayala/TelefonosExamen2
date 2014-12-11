@@ -1,7 +1,6 @@
 package com.example.cperregriniayala.telefonos;
 
 import android.app.Activity;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 

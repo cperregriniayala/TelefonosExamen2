@@ -1,4 +1,4 @@
-package com.example.cperregriniayala.telefonos_master;
+package com.example.cperregriniayala.telefonos;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,7 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.cperregriniayala.telefonos_master.R;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class MyActivity2 extends Activity {
 
@@ -19,6 +20,7 @@ public class MyActivity2 extends Activity {
     EditText nom;
     EditText tel;
     Contactos objContactos;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
